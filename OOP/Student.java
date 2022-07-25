@@ -1,9 +1,20 @@
 package OOP;
 
 public class Student {
-    String name;
+    public String name;
     private int enrollmentNumber;
 
+
+    // CREATEING CONSTRUCTOR(WHICH HAVE TWO PARAMETER)
+    public Student(String name, int enrollmentNumber){
+        this.name = name;
+        this.enrollmentNumber = enrollmentNumber;
+    }
+
+    // CREATING SINGLE PARAMETER CONSTRUCTOR
+    public Student(String name){
+        this.name = name;
+    }
 
     public void setEnrollmentNumber(int num){
         if(num < 0){
