@@ -25,12 +25,20 @@ public class StudentUse {
         // System.out.println(s1.getEnrollmentNumber());
 
         //Using Constructor
-        Student s1 = new Student("Jagdish", 2012083);
-        System.out.println(s1.name + " : " + s1.getEnrollmentNumber());
+        // Student s1 = new Student("Jagdish", 2012083);
+        // System.out.println(s1.name + " : " + s1.getEnrollmentNumber());
 
 
-        Student s2 = new Student("Anshu");
-        System.out.println(s2.name + " : " + s2.getEnrollmentNumber());
+        // Student s2 = new Student("Anshu");
+        // System.out.println(s2.name + " : " + s2.getEnrollmentNumber());
+
+
+
+
+        Student s3 = new Student("Jagdish Kumawat", 2012083);
+        System.out.println(s3.name);
+        System.out.println(s3.getEnrollmentNumber());
+        System.out.println(s3.convertPercentageToCGPA(100));
 
     }
 }
