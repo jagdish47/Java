@@ -4,7 +4,8 @@ public class Car extends Vehicle{
     String color;
 
     public void print(){
-        System.out.print(maxSpeed + " " + color + " " + getWheels());
+        super.print();  //Super keyword use to when we have to call the parent class function in child classes
+        System.out.println(color);
     }
 
     

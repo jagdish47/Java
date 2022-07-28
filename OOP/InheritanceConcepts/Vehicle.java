@@ -8,9 +8,9 @@ public class Vehicle {
         System.out.println(maxSpeed + " " + numOfWheels);
     }
 
-    public int getWheels(){
-        return numOfWheels;
-    }
+    // public int getWheels(){
+    //     return numOfWheels;
+    // }
 }
 
 
