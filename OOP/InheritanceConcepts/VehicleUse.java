@@ -1,6 +1,6 @@
 package OOP.InheritanceConcepts;
 
-public class VehicleUse {
+public class VehicleUse{
     
     public static void main(String[] args) {
         
@@ -9,7 +9,10 @@ public class VehicleUse {
         // System.out.println(v1.maxSpeed + " " + v1.getWheels());
 
         
-       Car c1 = new Car();
-       c1.print();
+        // Car c1 = new Car();
+
+        Vehicle v1 = new Vehicle();
+        
+
     }
 }

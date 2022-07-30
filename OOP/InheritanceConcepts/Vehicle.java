@@ -1,6 +1,6 @@
 package OOP.InheritanceConcepts;
 
-public class Vehicle {
+public abstract class Vehicle {
     protected int maxSpeed;
     protected int numOfWheels;
 
@@ -8,9 +8,11 @@ public class Vehicle {
         System.out.println(maxSpeed + " " + numOfWheels);
     }
 
-    // public int getWheels(){
-    //     return numOfWheels;
-    // }
+    public int getWheels(){
+        return numOfWheels;
+    }
+
+    public abstract boolean hasGear();
 }
 
 
