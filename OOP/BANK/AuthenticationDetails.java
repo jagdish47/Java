@@ -1,6 +1,6 @@
-package OOP.BANK;
+// package OOP.BANK;
 
-public class AuthenticationDetails {
-    private String username;
-    private String password;
-}
+// public class AuthenticationDetails {
+//     private String username = "abc";
+//     private String password = "123";
+// }

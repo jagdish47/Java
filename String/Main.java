@@ -3,6 +3,9 @@ package String;
 import java.util.Scanner;
 
 class Main {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
         // Two ways to declare string
@@ -45,14 +48,14 @@ class Main {
  
         String[] names = new String[5];
 
-        Scanner inp = new Scanner(System.in);
-
-        for(int i = 0; i < names.length; i++){
-            names[i] = inp.next();
+        try (Scanner inp = new Scanner(System.in)) {
+            for(int i = 0; i < names.length; i++){
+                names[i] = inp.next();
+            }
         }
 
-        for(int i = 0; i < names.length; i++){
-            System.out.println(names[i]);
+        for (String name : names) {
+            System.out.println(name);
         }
     }
 }

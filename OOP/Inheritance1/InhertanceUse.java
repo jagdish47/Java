@@ -1,5 +1,5 @@
 package OOP.Inheritance1;
-import OOP.InheritanceConcepts.Vehicle;
+// import OOP.InheritanceConcepts.Vehicle;
 
 
 public class InhertanceUse{
@@ -10,7 +10,7 @@ public class InhertanceUse{
         c1.maxSpeed = 100;
         c1.numOfWheels = 4;
 
-        System.out.println(c1.getMaxSpeed(100));
+        System.out.println(c1.getMaxSpeed());
 
     }
 }

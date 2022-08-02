@@ -11,7 +11,7 @@ public class VehicleUse{
         
         // Car c1 = new Car();
 
-        Vehicle v1 = new Vehicle();
+        // Vehicle v1 = new Vehicle();
         
 
     }

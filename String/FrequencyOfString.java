@@ -1,7 +1,5 @@
 package String;
 
-import java.util.Scanner;
-
 public class FrequencyOfString {
     public static void main(String[] args) {
 

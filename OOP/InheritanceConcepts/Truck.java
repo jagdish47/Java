@@ -1,5 +1,5 @@
-package OOP.InheritanceConcepts;
+// package OOP.InheritanceConcepts;
 
-public class Truck extends Vehicle{
+// public class Truck extends Vehicle{
     
-}
+// }

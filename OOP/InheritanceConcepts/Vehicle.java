@@ -1,8 +1,8 @@
 package OOP.InheritanceConcepts;
 
 public abstract class Vehicle {
-    protected int maxSpeed;
-    protected int numOfWheels;
+    public int maxSpeed;
+    public int numOfWheels;
 
     public void print(){
         System.out.println(maxSpeed + " " + numOfWheels);
