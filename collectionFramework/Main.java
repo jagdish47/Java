@@ -5,6 +5,9 @@ public class Main {
 
     public static void main(String args[]){
         ArrayList<Integer> arr = new ArrayList<>();
+        // List<Integer> st = new Stack<>();
+        // List<Integer> arr = new Vector<>();
+        // List<Integer> arr = new LinkedList<>();
         // List<Integer> arr = new ArrayList<>()
         // Object of arrayList
 
@@ -44,3 +47,7 @@ public class Main {
 
 // Vector is slower than arraList
 // so instead of vector we use ArrayList
+
+
+// all clasees vector stack LinkedList arraylist their methods are same
+//so we use same methods 
